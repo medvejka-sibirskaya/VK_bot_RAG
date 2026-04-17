@@ -64,7 +64,7 @@ PROXY_API_KEY=your_proxy_api_key
 FAISS_INDEX_PATH=index.faiss
 FAISS_METADATA_PATH=metadata.json
 
-# Document Directory
+# Document Directory = сложите в папку базу знаний.
 DOCS_PATH=data/docs
 
 # RAG Configuration
@@ -86,7 +86,7 @@ bot_vk/
 ├── requirements.txt    # Зависимости
 ├── data/               # Документы для индексации
 │   └── docs/
-├── rag/                # RAG компоненты (без изменений)
+├── rag/                # RAG компоненты 
 │   ├── __init__.py
 │   ├── embedder.py
 │   ├── pipeline.py
